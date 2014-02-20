@@ -1,26 +1,15 @@
 {
-  "name": "plasm-plasm",
+  "name": "cvdlab-plasm-fun",
   "description": "PLaSM functional library",
-  "version": "0.2.0",
-  "maintainers": [ 
-    {
-      "name": "Enrico Marino",
-      "email": "enrico.marino@email.com"
-    },
-    {
-      "name": "Federico Spini",
-      "email": "federico.spini@gmail.com"
-    }
+  "version": "0.1.0",
+  "keywords": [
+    "functional",
+    "PLaSM"
   ],
-  "homepage": "https://github.com/cvdlab/plasm-fun",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cvdlab/plasm-fun.git"
+  "dependencies": {
+    "cvdlab-f": "git://github.com/npmcomponent/cvdlab-f.git",
+    "cvdlab-plasm": "git://github.com/npmcomponent/cvdlab-plasm.git",
+    "enricomarino-globalize": "git://github.com/npmcomponent/enricomarino-globalize.git"
   },
-  "main": "index.js",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  "license": "MIT"
 }

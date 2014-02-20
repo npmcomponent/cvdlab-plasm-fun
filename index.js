@@ -10,9 +10,9 @@
  * Library dependencies.
  */
 
-var f = require('f');
-var plasm = require('plasm');
-var globalize = require('globalize');
+var f = require('cvdlab-f');
+var plasm = require('cvdlab-plasm');
+var globalize = require('enricomarino-globalize');
 
 /**
  * Expose `fun`
